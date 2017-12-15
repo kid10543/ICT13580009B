@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580009B.ManuPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <BoxView
+            Color="Navy"
+            Grid.RowSpan="2"/>
+
+        <BoxView
+            Color="Teal"/>
+
+        <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="End"
+            Margin="10">
+
+            <Image
+                HorizontalOptions="Start"
+                WidthRequest="100"
+                HeightRequest="100"
+                BackgroundColor="White"/>
+
+            <Label
+            Text="Kantinun Yongyut"
+            TextColor="Yellow"
+            FontAttributes="Bold"/>
+
+            <Label
+                Text="Gthomic@gmail.com"
+                TextColor="Fuchsia"
+                FontAttributes="Bold"/>
+            
+
+
+        </StackLayout>
+        <StackLayout
+            Grid.Row="1"
+            Orientation="Vertical"
+            Padding="30">
+
+            <Label
+                Text="view"
+                TextColor="Red"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            <Button
+                x:Name= "viewButton"
+                Text="All view"
+                BackgroundColor="Aqua"/>
+            <Button
+                x:Name="stackButton"
+                Text="Stack Layout"
+                BackgroundColor="Fuchsia"/>
+            <Button
+                x:Name="gridButton"
+                Text="Grid Layout"
+                BackgroundColor="Fuchsia"/>
+            <Button
+                x:Name="AbsoluteButton"
+                Text="Absolute Layout"
+                BackgroundColor="Fuchsia"/>
+
+            
+            
+            
+            
+       </StackLayout>
+
+        
+        
+    </Grid>
+
+
+            
+    
+
+</ContentPage>
